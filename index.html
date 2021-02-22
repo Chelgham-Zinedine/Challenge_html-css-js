@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/base.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+    <section class="conteneur">
+        <img class="img-google" action="https://google.com/search" src="src/images/google.png" alt="logo google">
+        <div class="box--search">
+            <img class="img-search" src="src/images/search.png" alt="search image">    
+            <form action="https://google.com/search">
+                <input type="text" class="input-search" placeholder="Effectuez une recherche sur Google ou saisissez une URL" name="q">
+            </form>
+        </div>
+
+        <nav class="box--button--search">
+            <a class="a-button a-button1">Recherche Google</a>
+            <a class="a-button a-button2" href="#">J'ai de la chance</a>
+        </nav>
+
+        <div class="box-trad">
+            <p class="trad-google">Google disponible en :</p>
+            <a class="a-trad-google" href="#">English</a>     
+        </div>
+    </section>
+
+    <script src="src/js/google.js"></script>
+    
+</body>
+</html>
